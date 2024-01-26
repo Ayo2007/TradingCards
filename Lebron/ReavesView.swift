@@ -22,7 +22,7 @@
 import SwiftUI
 
 struct ReavesView: View {
-    var lakerCardShow3 = lakersCard(nickname: "AR", name: "Austin Reaves", trait1: "Rookie", trait2: "Rising Star", image: "Reaves")
+    var lakerCardShow3 = LakersCard(nickname: "AR", name: "Austin Reaves", trait1: "Rookie", trait2: "Rising Star", image: "Reaves")
     var body: some View {
      
         ZStack{

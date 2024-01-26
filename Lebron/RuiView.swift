@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct RuiView: View {
-    var lakerCardShow5 = lakersCard(nickname: "RH", name: "Rui HachiMura", trait1: "Hustler ", trait2: " Blocker", image: "Rui")
+    var lakerCardShow5 = LakersCard(nickname: "RH", name: "Rui HachiMura", trait1: "Hustler ", trait2: " Blocker", image: "Rui")
    
     var body: some View {
      

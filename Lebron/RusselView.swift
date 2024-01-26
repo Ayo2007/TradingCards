@@ -22,7 +22,7 @@
 import SwiftUI
 
 struct RussellView: View {
-    var lakerCardShow4 = lakersCard(nickname: "DLO", name: "D'angello Russell", trait1: "Playmaker ", trait2: "Deep 3pt", image: "Dlo")
+    var lakerCardShow4 = LakersCard(nickname: "DLO", name: "D'angello Russell", trait1: "Playmaker ", trait2: "Deep 3pt", image: "Dlo")
    
     var body: some View {
      

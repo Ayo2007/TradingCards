@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    var lakerCardShow = lakersCard(nickname: "THE GOAT", name: "Lebron James", trait1: "Slam Dunk", trait2: "Finisher", image: "lbj" )
+    var lakerCardShow = LakersCard(nickname: "THE GOAT", name: "Lebron James", trait1: "Slam Dunk", trait2: "Finisher", image: "lbj" )
     
     var body: some View {
      

@@ -11,19 +11,19 @@ struct ListView: View {
     var body: some View {
         NavigationView {
             List {
-                NavigationLink(destination: ContentView(lakerCardShow : LebronJames), label: {
+                NavigationLink(destination: ContentView(lakerCardShow : lebronJames), label: {
                     Text("Lebron James")
                 })
-                NavigationLink(destination: ADView(lakerCardShow2 : AnthonyDavis), label: {
+                NavigationLink(destination: ADView(lakerCardShow2 : anthonyDavis), label: {
                     Text("Anthony Davis")
                 })
-                NavigationLink(destination: ReavesView(lakerCardShow3 : AustinReaves), label: {
+                NavigationLink(destination: ReavesView(lakerCardShow3 : austinReaves), label: {
                     Text("Austin Reaves")
                 })
-                NavigationLink(destination: RussellView(lakerCardShow4 : DAangelloRussell), label: {
+                NavigationLink(destination: RussellView(lakerCardShow4 : dangelloRussell), label: {
                     Text("D'angelo Russell")
                 })
-                NavigationLink(destination: RuiView(lakerCardShow5 : RuiHachiruma), label: {
+                NavigationLink(destination: RuiView(lakerCardShow5 : ruiHachiruma), label: {
                     Text("Rui Hachimura")
                 })
                 

@@ -15,7 +15,7 @@
 import SwiftUI
 
 struct ADView: View {
-    var lakerCardShow2 = lakersCard(nickname: "AD", name: "Anthony Davis", trait1: "PaintBeast ", trait2: "Lockdown Defnese", image: "AD")
+    var lakerCardShow2 = LakersCard(nickname: "AD", name: "Anthony Davis", trait1: "PaintBeast ", trait2: "Lockdown Defnese", image: "AD")
    
     var body: some View {
      
