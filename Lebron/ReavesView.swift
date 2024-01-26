@@ -1,4 +1,18 @@
 //
+//  ReavesView.swift
+//  Lebron
+//
+//  Created by Ayodeji Ogunkinle on 2024-01-25.
+//
+
+//
+//  ADView.swift
+//  Lebron
+//
+//  Created by Ayodeji Ogunkinle on 2024-01-25.
+//
+
+//
 //  ContentView.swift
 //  Lebron
 //
@@ -7,9 +21,8 @@
 
 import SwiftUI
 
-struct ContentView: View {
-    var lakerCardShow = lakersCard(nickname: "THE GOAT", name: "Lebron James", trait1: "Slam Dunk", trait2: "Finisher", image: "lbj" )
-    
+struct ReavesView: View {
+    var lakerCardShow3 = lakersCard(nickname: "AR", name: "Austin Reaves", trait1: "Rookie", trait2: "Rising Star", image: "Reaves")
     var body: some View {
      
         ZStack{
@@ -23,7 +36,7 @@ struct ContentView: View {
                 .foregroundColor(.goldV2)
                 .padding()
                 .padding()
-            Image(lakerCardShow.image)
+            Image(lakerCardShow3.image)
                 .resizable()
                 .clipShape(RoundedRectangle(cornerRadius: 20))
                 .aspectRatio(contentMode: .fit)
@@ -31,11 +44,11 @@ struct ContentView: View {
             
 
             VStack {
-                Text(lakerCardShow.nickname)
+                Text(lakerCardShow3.nickname)
                     .font(.title)
                     .fontDesign(.monospaced)
                     .fontWeight(.bold)
-                Text(lakerCardShow.name)
+                Text(lakerCardShow3.name)
                     .font(.title)
                     .fontDesign(.monospaced)
                     .fontWeight(.bold)
@@ -48,12 +61,12 @@ struct ContentView: View {
                     .font(.title)
                     .fontDesign(.monospaced)
                   
-                Text(lakerCardShow.trait1)
+                Text(lakerCardShow3.trait1)
                     .font(.title)
                     .fontDesign(.monospaced)
                     .fontWeight(.bold)
                 
-              Text(lakerCardShow.trait2)
+              Text(lakerCardShow3.trait2)
                   .font(.title)
                   .fontDesign(.monospaced)
                   .fontWeight(.bold)
@@ -70,5 +83,6 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView()
+   ReavesView()
 }
+
