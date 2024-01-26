@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ListView: View {
     var body: some View {
-        NavigationView {
+        NavigationStack {
             List {
                 NavigationLink(destination: DetailView(player: lebronJames), label: {
                     Text("Lebron James")
