@@ -11,19 +11,19 @@ struct ListView: View {
     var body: some View {
         NavigationView {
             List {
-                NavigationLink(destination: ContentView(lakerCardShow : lebronJames), label: {
+                NavigationLink(destination: DetailView(player: lebronJames), label: {
                     Text("Lebron James")
                 })
-                NavigationLink(destination: ADView(lakerCardShow2 : anthonyDavis), label: {
+                NavigationLink(destination: DetailView(player: anthonyDavis), label: {
                     Text("Anthony Davis")
                 })
-                NavigationLink(destination: ReavesView(lakerCardShow3 : austinReaves), label: {
+                NavigationLink(destination: DetailView(player: austinReaves), label: {
                     Text("Austin Reaves")
                 })
-                NavigationLink(destination: RussellView(lakerCardShow4 : dangelloRussell), label: {
+                NavigationLink(destination: DetailView(player: dangelloRussell), label: {
                     Text("D'angelo Russell")
                 })
-                NavigationLink(destination: RuiView(lakerCardShow5 : ruiHachiruma), label: {
+                NavigationLink(destination: DetailView(player: ruiHachiruma), label: {
                     Text("Rui Hachimura")
                 })
                 
@@ -33,8 +33,6 @@ struct ListView: View {
     }
 }
 
-struct ListView_Previews: PreviewProvider {
-    static var previews: some View {
-        ListView()
-    }
+#Preview {
+    ListView()
 }

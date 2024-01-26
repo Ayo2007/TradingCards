@@ -11,7 +11,7 @@ import SwiftUI
 struct LebronApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ListView()
         }
     }
 }

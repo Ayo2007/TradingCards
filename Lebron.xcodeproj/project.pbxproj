@@ -8,29 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		57E8D2802B60473B00FD20CE /* LebronApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E8D27F2B60473B00FD20CE /* LebronApp.swift */; };
-		57E8D2822B60473B00FD20CE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E8D2812B60473B00FD20CE /* ContentView.swift */; };
 		57E8D2842B60473E00FD20CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57E8D2832B60473E00FD20CE /* Assets.xcassets */; };
 		57E8D2872B60473E00FD20CE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57E8D2862B60473E00FD20CE /* Preview Assets.xcassets */; };
 		57E8D2922B60A07C00FD20CE /* LakersCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E8D2912B60A07B00FD20CE /* LakersCard.swift */; };
 		57E8D2942B62015C00FD20CE /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E8D2932B62015C00FD20CE /* ListView.swift */; };
-		57E8D2962B6348D300FD20CE /* ADView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E8D2952B6348D300FD20CE /* ADView.swift */; };
-		57E8D2982B634BB500FD20CE /* ReavesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E8D2972B634BB500FD20CE /* ReavesView.swift */; };
-		57E8D29A2B634C5900FD20CE /* RusselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E8D2992B634C5900FD20CE /* RusselView.swift */; };
-		57E8D29C2B634D1600FD20CE /* RuiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E8D29B2B634D1600FD20CE /* RuiView.swift */; };
+		57E8D29C2B634D1600FD20CE /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E8D29B2B634D1600FD20CE /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		57E8D27C2B60473B00FD20CE /* Lebron.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lebron.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57E8D27F2B60473B00FD20CE /* LebronApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LebronApp.swift; sourceTree = "<group>"; };
-		57E8D2812B60473B00FD20CE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		57E8D2832B60473E00FD20CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		57E8D2862B60473E00FD20CE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		57E8D2912B60A07B00FD20CE /* LakersCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LakersCard.swift; sourceTree = "<group>"; };
 		57E8D2932B62015C00FD20CE /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
-		57E8D2952B6348D300FD20CE /* ADView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADView.swift; sourceTree = "<group>"; };
-		57E8D2972B634BB500FD20CE /* ReavesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReavesView.swift; sourceTree = "<group>"; };
-		57E8D2992B634C5900FD20CE /* RusselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RusselView.swift; sourceTree = "<group>"; };
-		57E8D29B2B634D1600FD20CE /* RuiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RuiView.swift; sourceTree = "<group>"; };
+		57E8D29B2B634D1600FD20CE /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,12 +57,7 @@
 			children = (
 				57E8D27F2B60473B00FD20CE /* LebronApp.swift */,
 				57E8D29D2B63FB5A00FD20CE /* Model */,
-				57E8D2812B60473B00FD20CE /* ContentView.swift */,
-				57E8D29B2B634D1600FD20CE /* RuiView.swift */,
-				57E8D2992B634C5900FD20CE /* RusselView.swift */,
-				57E8D2972B634BB500FD20CE /* ReavesView.swift */,
-				57E8D2952B6348D300FD20CE /* ADView.swift */,
-				57E8D2932B62015C00FD20CE /* ListView.swift */,
+				57E8D29E2B63FCF200FD20CE /* Views */,
 				57E8D2832B60473E00FD20CE /* Assets.xcassets */,
 				57E8D2852B60473E00FD20CE /* Preview Content */,
 			);
@@ -91,6 +78,15 @@
 				57E8D2912B60A07B00FD20CE /* LakersCard.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		57E8D29E2B63FCF200FD20CE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				57E8D29B2B634D1600FD20CE /* DetailView.swift */,
+				57E8D2932B62015C00FD20CE /* ListView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,12 +160,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				57E8D2942B62015C00FD20CE /* ListView.swift in Sources */,
-				57E8D2962B6348D300FD20CE /* ADView.swift in Sources */,
-				57E8D2982B634BB500FD20CE /* ReavesView.swift in Sources */,
-				57E8D29C2B634D1600FD20CE /* RuiView.swift in Sources */,
-				57E8D2822B60473B00FD20CE /* ContentView.swift in Sources */,
+				57E8D29C2B634D1600FD20CE /* DetailView.swift in Sources */,
 				57E8D2802B60473B00FD20CE /* LebronApp.swift in Sources */,
-				57E8D29A2B634C5900FD20CE /* RusselView.swift in Sources */,
 				57E8D2922B60A07C00FD20CE /* LakersCard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

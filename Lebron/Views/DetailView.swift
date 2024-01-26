@@ -1,15 +1,16 @@
 //
-//  ContentView.swift
+//  RuiView.swift
 //  Lebron
 //
-//  Created by Ayodeji Ogunkinle on 2024-01-23.
+//  Created by Ayodeji Ogunkinle on 2024-01-25.
 //
 
 import SwiftUI
 
-struct ContentView: View {
-    var lakerCardShow = LakersCard(nickname: "THE GOAT", name: "Lebron James", trait1: "Slam Dunk", trait2: "Finisher", image: "lbj" )
+struct DetailView: View {
     
+    let player: LakersCard
+   
     var body: some View {
      
         ZStack{
@@ -23,7 +24,7 @@ struct ContentView: View {
                 .foregroundColor(.goldV2)
                 .padding()
                 .padding()
-            Image(lakerCardShow.image)
+            Image(player.image)
                 .resizable()
                 .clipShape(RoundedRectangle(cornerRadius: 20))
                 .aspectRatio(contentMode: .fit)
@@ -31,11 +32,11 @@ struct ContentView: View {
             
 
             VStack {
-                Text(lakerCardShow.nickname)
+                Text(player.nickname)
                     .font(.title)
                     .fontDesign(.monospaced)
                     .fontWeight(.bold)
-                Text(lakerCardShow.name)
+                Text(player.name)
                     .font(.title)
                     .fontDesign(.monospaced)
                     .fontWeight(.bold)
@@ -48,12 +49,12 @@ struct ContentView: View {
                     .font(.title)
                     .fontDesign(.monospaced)
                   
-                Text(lakerCardShow.trait1)
+                Text(player.trait1)
                     .font(.title)
                     .fontDesign(.monospaced)
                     .fontWeight(.bold)
                 
-              Text(lakerCardShow.trait2)
+              Text(player.trait2)
                   .font(.title)
                   .fontDesign(.monospaced)
                   .fontWeight(.bold)
@@ -69,6 +70,7 @@ struct ContentView: View {
     }
 }
 
+
 #Preview {
-    ContentView()
+    DetailView(player: ruiHachiruma)
 }
